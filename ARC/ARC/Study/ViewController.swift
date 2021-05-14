@@ -8,10 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var interactor: ContactsInteracting?
+    var viewController: ContactsDisplaying?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let empresa = Empresa(name: "PicPay")
-        print(empresa.name + " " + empresa.pessoa.name)
+        view.backgroundColor = .blue
+//        let empresa = Empresa(name: "PicPay")
+//        print(empresa.name + " " + empresa.pessoa.name)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(didTap))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc
+    func didTap() {
+        interactor = ContactsInteractor(service: ContactsService())
+        viewController = ContactsViewController(interactor: interactor!)
+        
+        interactor!.viewController = viewController
+        navigationController?.pushViewController(viewController! as! UIViewController, animated: true)
     }
 }
 

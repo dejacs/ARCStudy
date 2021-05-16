@@ -11,6 +11,7 @@ import UIKit
 protocol ContactsDisplaying: AnyObject {
     func display(contacts: [ContactViewModel])
     func displayError()
+    func displaySomething(name: String)
 }
 
 class ContactsViewController: UIViewController, ContactsDisplaying {
@@ -18,6 +19,7 @@ class ContactsViewController: UIViewController, ContactsDisplaying {
     
     init(interactor: ContactsInteracting) {
         self.interactor = interactor
+        print("ContactsViewController was initialized")
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -35,5 +37,13 @@ class ContactsViewController: UIViewController, ContactsDisplaying {
     
     func displayError() {
         
+    }
+    
+    func displaySomething(name: String) {
+        
+    }
+    
+    deinit {
+        print("ContactsViewController was deinitialized")
     }
 }

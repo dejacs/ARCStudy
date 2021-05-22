@@ -16,6 +16,7 @@ protocol ContactsDisplaying: AnyObject {
 
 class ContactsViewController: UIViewController, ContactsDisplaying {
     private let interactor: ContactsInteracting
+    let abobora = Abobora(batata: Batata())
     
     init(interactor: ContactsInteracting) {
         self.interactor = interactor
@@ -28,8 +29,11 @@ class ContactsViewController: UIViewController, ContactsDisplaying {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        interactor.fetchContacts()
+        
+        abobora.comBatata()
     }
+    
+    // ViewController > Abobora > Batata
     
     func display(contacts: [ContactViewModel]) {
         

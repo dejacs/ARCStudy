@@ -12,7 +12,7 @@ protocol ContactsInteracting: AnyObject {
     func fetchContacts()
 }
 
-class ContactsInteractor: ContactsInteracting {
+class ContactsInteractor: ContactsInteracting { // Interactor > viewController > Interactor
     private let service: ContactsServicing
     weak var viewController: ContactsDisplaying?
     
@@ -24,8 +24,7 @@ class ContactsInteractor: ContactsInteracting {
     }
     
     func fetchContacts() {
-        service.fetchContacts { [weak self] result in
-            guard let self = self else { return }
+        service.fetchContacts { result in
             switch result {
             case .success(let contacts):
                 self.set(contacts: contacts)

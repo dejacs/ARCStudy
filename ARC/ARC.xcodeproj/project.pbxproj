@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1B3C4E2658287B005FDD2D /* Abobora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B3C4D2658287B005FDD2D /* Abobora.swift */; };
+		1D1B3C502658288F005FDD2D /* Batata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B3C4F2658288F005FDD2D /* Batata.swift */; };
+		1D1B3C5226582EB4005FDD2D /* Cenoura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B3C5126582EB4005FDD2D /* Cenoura.swift */; };
 		1D37EC15264E912A004F3B1B /* ContactsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37EC14264E912A004F3B1B /* ContactsInteractor.swift */; };
 		1D37EC17264E9257004F3B1B /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37EC16264E9257004F3B1B /* ContactsService.swift */; };
 		1D37EC19264EA298004F3B1B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37EC18264EA298004F3B1B /* Contact.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D1B3C4D2658287B005FDD2D /* Abobora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abobora.swift; sourceTree = "<group>"; };
+		1D1B3C4F2658288F005FDD2D /* Batata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batata.swift; sourceTree = "<group>"; };
+		1D1B3C5126582EB4005FDD2D /* Cenoura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cenoura.swift; sourceTree = "<group>"; };
 		1D37EC14264E912A004F3B1B /* ContactsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInteractor.swift; sourceTree = "<group>"; };
 		1D37EC16264E9257004F3B1B /* ContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
 		1D37EC18264EA298004F3B1B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -172,6 +178,9 @@
 				1D585C44264560E900D50A22 /* ViewController.swift */,
 				1D585C742645611000D50A22 /* Models.swift */,
 				1DEC7FB22646FF3B00314963 /* Scopes.swift */,
+				1D1B3C4D2658287B005FDD2D /* Abobora.swift */,
+				1D1B3C4F2658288F005FDD2D /* Batata.swift */,
+				1D1B3C5126582EB4005FDD2D /* Cenoura.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -312,9 +321,12 @@
 				1DEC7FB32646FF3B00314963 /* Scopes.swift in Sources */,
 				1D37EC17264E9257004F3B1B /* ContactsService.swift in Sources */,
 				1D585C752645611000D50A22 /* Models.swift in Sources */,
+				1D1B3C4E2658287B005FDD2D /* Abobora.swift in Sources */,
 				1D585C45264560E900D50A22 /* ViewController.swift in Sources */,
+				1D1B3C502658288F005FDD2D /* Batata.swift in Sources */,
 				1D585C41264560E900D50A22 /* AppDelegate.swift in Sources */,
 				1D585C4B264560E900D50A22 /* ARC.xcdatamodeld in Sources */,
+				1D1B3C5226582EB4005FDD2D /* Cenoura.swift in Sources */,
 				1D37EC15264E912A004F3B1B /* ContactsInteractor.swift in Sources */,
 				1D585C43264560E900D50A22 /* SceneDelegate.swift in Sources */,
 			);

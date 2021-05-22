@@ -3,4 +3,70 @@
    uuid = "A0B3501D-DD5E-4E52-AAC8-377ACFC3FFCA"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B7C7521-7056-4E91-AC90-597E1E782B24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARC/ClosureReference/Contacts/ContactsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchContacts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9B7C7521-7056-4E91-AC90-597E1E782B24 - c7af101b63b0cb7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ARC.ContactsInteractor.fetchContacts() -&gt; ()"
+                  moduleName = "ARC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/Personal/ARC/ARC/ARC/ClosureReference/Contacts/ContactsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "9B7C7521-7056-4E91-AC90-597E1E782B24 - 6a691c14bee35f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;ARC.Contact&gt;, Swift.Error&gt;) -&gt; () in ARC.ContactsInteractor.fetchContacts() -&gt; ()"
+                  moduleName = "ARC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jadesilveira/Projects/Personal/ARC/ARC/ARC/ClosureReference/Contacts/ContactsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5E0ED09-F20B-4CD0-99C3-73ED56F50815"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARC/Study/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
